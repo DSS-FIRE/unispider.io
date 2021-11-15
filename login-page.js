@@ -8,7 +8,7 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "unspider.user1" && password === "dss2021"){
-        alert(window.location.href = "index.html");
+        alert(window.location.href = "index2.html");
 
         location.reload();
     } else{
