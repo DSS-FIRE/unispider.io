@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login-page.css">
+  <script defer src="login-page.js"></script>
+  
+  	<style>
+body {
+  heigh:10%;
+  background-image: url("img/fondo.png");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+	</style>
+  
+</head>
+
+<body>
+
+
+
+  <main id="main-holder">
+    <h1 id="login-header">Login</h1>
+    
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+    
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+
+  </main>
+    <div class="inferior">
+         <a href="index.html">Return</a>
+     </div>
+     <div class="inferior2">
+		<div class="logo flex-row-left">
+			<img src="img/UN-logo-en-reverse.svg" width="100">
+			<div class="verticalLine" color="writhe">
+			<p class="text text-small text-italic"><span class="highlight-text"><font color="#bbe1fa">© 2021 UNOOSA/UN-SPIDER. All rights reserved.</font></p>
+			</div>
+		</div>
+     </div>
+</body>
+
+</html>
