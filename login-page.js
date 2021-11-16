@@ -8,9 +8,7 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "unspider.user1" && password === "dss2021"){
-        window.location.href = "https://dss-fire.github.io/emissions.io/";
-
-        location.reload();
+        window.location.href = "https://dss-fire.github.io/emissions.io/"
     } else{
         loginErrorMsg.style.opacity = 1;
     }
