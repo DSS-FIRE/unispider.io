@@ -7,7 +7,7 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "unspider.user1" && password === "dss2021"){
+    if (username === "unspider.user1" && password === "dss2023"){
         window.location.href = "https://dss-fire.github.io/unspider_log.io/"
     } else{
         loginErrorMsg.style.opacity = 1;
